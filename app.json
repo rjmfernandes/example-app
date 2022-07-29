@@ -1,0 +1,43 @@
+{
+    "id": "02af0c1f-553d-4dbf-be73-f69248b83fa9",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Rui Fernandes",
+        "homepage": "http://rocket.chat",
+        "support": "http://rocket.chat"
+    },
+    "name": "Example",
+    "nameSlug": "example",
+    "classFile": "ExampleApp.ts",
+    "description": "an example of an app",
+    "implements": [
+        "IPreMessageSentPrevent",
+        "IPostMessageSent",
+        "IUIKitInteractionHandler"
+    ],
+    "permissions": [
+        {
+            "name": "ui.registerButtons"
+        },
+        {
+            "name": "slashcommand"
+        },
+        {
+            "name": "message.write"
+        },
+        {
+            "name": "networking"
+        },
+        {
+            "name": "room.read"
+        },
+        {
+            "name": "ui.interact"
+        },
+        {
+            "name": "api"
+        }
+    ]
+}
